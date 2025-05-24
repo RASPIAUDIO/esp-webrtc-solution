@@ -5,6 +5,7 @@
 #if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(5, 0, 0)
 #include "driver/i2s_std.h"
 #include "driver/i2s_tdm.h"
+#include "driver/i2s_common.h" // Added this line
 #include "soc/soc_caps.h"
 #else
 #include "driver/i2s.h"
